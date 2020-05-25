@@ -53,7 +53,7 @@ div {
 
 .Title {
   position: fixed;
-  padding: var(--font-size-xl);
+  font-size: var(--font-size-xl);
 }
 
 .mainText {
