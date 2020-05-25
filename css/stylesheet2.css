@@ -69,7 +69,7 @@ vertical-align: middle;
 /* padding-left: 200px; */
 padding-top: 60px;
   position: relative;
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   line-height: var(--line-height)*8;
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 75px red, 0 0 5px darkblue;
@@ -104,6 +104,6 @@ z-index: -900;
 }
 
 img {
-  width: 750px;
+  width: 1000px;
   height: auto;
 }
