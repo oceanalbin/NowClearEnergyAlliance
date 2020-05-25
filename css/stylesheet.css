@@ -41,10 +41,17 @@ body {
   background-color: rgba(51, 51, 51, 0.2);
 }
 
+#repeat { background-repeat: repeat; }
+
+#repeat-x { background-repeat: repeat-x; }
+
+#repeat-y { background-repeat: repeat-y; }
+
+#no-repeat { background-repeat: no-repeat; }
+
 div {
-  display: inline-block;
-  display: -webkit-inline-block;
-  display: -ms-inline-block;
+  margin-bottom: 4em;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png);
 }
 
 .container {
@@ -61,6 +68,12 @@ margin-top: 100px;
 }
 
 .mainText {
+
+}
+
+.tiled {
+  position: fixed;
+  padding: 0;
 
 }
 
