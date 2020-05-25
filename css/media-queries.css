@@ -1,0 +1,202 @@
+/* Bigger screens */
+@media all and (max-width: 4000px) {
+  .textinsidepopup {
+    bottom: -370px;
+  }
+}
+
+/* Bigger screens */
+@media all and (max-width: 1500px) {
+  .textinsidepopup {
+    bottom: -410px;
+  }
+}
+
+/* Bigger screens */
+@media all and (max-width: 1110px) {
+  .infobox {
+    margin-top: 6vw;
+  }
+  .textinfobox {
+    right: 16%;
+    width: 104vw;
+  }
+}
+/* Bigger screens */
+@media all and (max-width: 960px) {
+  .btn {
+    font-size: 96%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  nav > ul > li:nth-of-type(8) button {
+  font-size: 96%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+}
+/* Medium screens */
+@media all and (max-width: 885px) {
+  .btn {
+    font-size: 80%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  section {
+    justify-content: space-around;
+  }
+  #projects > article {
+    width: 90vw;
+    height: 60vw;
+    top: 4vh;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  img + p {
+    font-size: 6vw;
+    line-height: 5vw;
+  }
+  nav > ul > li:nth-of-type(8) button {
+  font-size: 80%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  /* .realtextinsidepopup {
+    width: 45vw;
+  } */
+  .navbuttonright {
+    margin-left: 89vw;
+  }
+  .tile img {
+    max-height: 90%;
+  }
+  .infobox {
+    margin-top: 5vw;
+  }
+  .textinfobox {
+    right: 16%;
+    width: 104vw;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+}
+
+/* INB SM screens */
+@media all and (max-width: 664px) {
+
+  .btn {
+    font-size: 70%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  nav > ul > li:nth-of-type(8) button {
+  font-size: 70%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+
+}
+
+
+/* Small screens */
+@media all and (max-width: 600px) {
+  section {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+  .btn {
+    font-size: 60%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  nav > ul > li:nth-of-type(8) button {
+  font-size: 60%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  .navbuttonright {
+    margin-left: 86vw;
+  }
+  .tile img {
+    max-height: 70%;
+  }
+  .infobox {
+    margin-top: 8vw;
+  }
+  .infobox {
+    margin-top: 8vw;
+  }
+}
+
+/* Very Small screens */
+@media all and (max-width: 500px) {
+  section {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+  .btn {
+    font-size: 40%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  nav > ul > li:nth-of-type(8) button {
+  font-size: 40%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  .navbuttonright {
+    margin-left: 76vw;
+  }
+  .tile img {
+    max-height: 60%;
+  }
+  nav > ul > li:first-of-type {
+    margin-left: 1em;
+}
+}
+
+/* Very Very Small screens */
+@media all and (max-width: 410px) {
+  section {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+  .btn {
+    font-size: 35%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  nav > ul > li:nth-of-type(8) button {
+  font-size: 35%;
+    -webkit-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+  }
+  .navbuttonright {
+    margin-left: 72vw;
+  }
+  .tile img {
+    max-height: 50%;
+  }
+  .infobox {
+    margin-top: 15vw;
+  }
+  nav > ul > li:first-of-type {
+    margin-left: 0em;
+}
+}
