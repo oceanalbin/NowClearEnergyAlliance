@@ -21,14 +21,13 @@
 
   <!-- <script src="scripts/mainscript.js"></script> -->
   <script type="text/javascript">
-  <link href="css/stylesheet.css" type="text/css" rel="stylesheet"  />
-  // var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-  // if (mobile) {
-  //   document.write('<link href="css/stylesheet2.css" type="text/css" rel="stylesheet"/>');
-  // } else {
-  //   document.write('<link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>');
-  //   document.write('<link href="css/media-queries.css" rel="stylesheet" type="text/css">');
-  // }
+  var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+  if (mobile) {
+    document.write('<link href="css/stylesheet2.css" type="text/css" rel="stylesheet"/>');
+  } else {
+    document.write('<link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>');
+    document.write('<link href="css/media-queries.css" rel="stylesheet" type="text/css">');
+  }
 </script>
 </head>
 <body>
